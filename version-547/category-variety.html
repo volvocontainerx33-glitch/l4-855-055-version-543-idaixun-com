@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>综艺片单 - 高清影视片库</title>
+  <meta name="description" content="综艺片单，真人秀、喜剧综艺、舞台与观察类节目。">
+  <meta name="keywords" content="高清影视片库,精选影片片单,影视片库,分类内容,电影电视剧,持续更新">
+  <meta property="og:title" content="综艺片单 - 高清影视片库">
+  <meta property="og:description" content="综艺片单，真人秀、喜剧综艺、舞台与观察类节目。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="高清影视片库">
+      <span class="brand-icon">▶</span>
+      <span class="brand-text">高清影视片库</span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+        <a class="nav-link " href="index.html">首页</a>
+        <a class="nav-link active" href="categories.html">分类</a>
+        <a class="nav-link " href="rankings.html">排行榜</a>
+        <a class="nav-link " href="search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get" data-search-form>
+      <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-toggle" type="button" aria-label="展开导航" data-mobile-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <div class="container mobile-panel-inner">
+        <a class="mobile-nav-link " href="index.html">首页</a>
+        <a class="mobile-nav-link active" href="categories.html">分类</a>
+        <a class="mobile-nav-link " href="rankings.html">排行榜</a>
+        <a class="mobile-nav-link " href="search.html">搜索</a>
+      <form class="mobile-search" action="search.html" method="get" data-search-form>
+        <input type="search" name="q" placeholder="搜索视频..." aria-label="移动端搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumbs"><a href="index.html">首页</a><span>›</span><a href="categories.html">分类</a><span>›</span><span>综艺片单</span></nav>
+    <h1>综艺片单</h1>
+    <p>真人秀、喜剧综艺、舞台与观察类节目。</p>
+  </div>
+</section>
+<section class="filter-panel container" data-filter-panel>
+  <form class="filter-grid" data-filter-form>
+      <label>
+        <span>关键词</span>
+        <input type="search" name="q" placeholder="输入片名、演员线索、标签" data-filter-query>
+      </label>
+      <label>
+        <span>类型</span>
+        <select data-filter-type>
+          <option value="">全部类型</option>
+        <option value="电影">电影</option>
+        <option value="剧集">剧集</option>
+        <option value="电视剧">电视剧</option>
+        <option value="动画电影">动画电影</option>
+        <option value="根据片名判断">根据片名判断</option>
+        <option value="动画剧集">动画剧集</option>
+        <option value="综艺">综艺</option>
+        <option value="纪录片">纪录片</option>
+        <option value="网络电影">网络电影</option>
+        <option value="动画">动画</option>
+        <option value="网络剧">网络剧</option>
+        <option value="电影 / 动画">电影 / 动画</option>
+        <option value="网剧">网剧</option>
+        <option value="TV Series">TV Series</option>
+        <option value="剧集 / 动画">剧集 / 动画</option>
+        <option value="剧情电影">剧情电影</option>
+        <option value="动漫">动漫</option>
+        <option value="OVA">OVA</option>
+        </select>
+      </label>
+      <label>
+        <span>地区</span>
+        <select data-filter-region>
+          <option value="">全部地区</option>
+        <option value="中国大陆">中国大陆</option>
+        <option value="美国">美国</option>
+        <option value="日本">日本</option>
+        <option value="中国香港">中国香港</option>
+        <option value="韩国">韩国</option>
+        <option value="英国">英国</option>
+        <option value="法国">法国</option>
+        <option value="中国台湾">中国台湾</option>
+        <option value="中国">中国</option>
+        <option value="西班牙">西班牙</option>
+        <option value="根据片名判断">根据片名判断</option>
+        <option value="泰国">泰国</option>
+        <option value="印度">印度</option>
+        <option value="香港">香港</option>
+        <option value="意大利">意大利</option>
+        <option value="德国">德国</option>
+        <option value="法国 / 比利时">法国 / 比利时</option>
+        <option value="俄罗斯">俄罗斯</option>
+        </select>
+      </label>
+      <label>
+        <span>题材</span>
+        <select data-filter-genre>
+          <option value="">全部题材</option>
+        <option value="剧情">剧情</option>
+        <option value="喜剧">喜剧</option>
+        <option value="悬疑">悬疑</option>
+        <option value="动作">动作</option>
+        <option value="爱情">爱情</option>
+        <option value="犯罪">犯罪</option>
+        <option value="奇幻">奇幻</option>
+        <option value="家庭">家庭</option>
+        <option value="惊悚">惊悚</option>
+        <option value="科幻">科幻</option>
+        <option value="冒险">冒险</option>
+        <option value="历史">历史</option>
+        <option value="恐怖">恐怖</option>
+        <option value="古装">古装</option>
+        <option value="战争">战争</option>
+        <option value="青春">青春</option>
+        <option value="动画">动画</option>
+        <option value="音乐">音乐</option>
+        <option value="传记">传记</option>
+        <option value="运动">运动</option>
+        <option value="灾难">灾难</option>
+        <option value="心理">心理</option>
+        <option value="文艺">文艺</option>
+        <option value="根据片名判断">根据片名判断</option>
+        </select>
+      </label>
+      <label>
+        <span>年份</span>
+        <select data-filter-year>
+          <option value="">全部年份</option>
+        <option value="根据片名判断">根据片名判断</option>
+        <option value="2030">2030</option>
+        <option value="2029">2029</option>
+        <option value="2028">2028</option>
+        <option value="2027">2027</option>
+        <option value="2026">2026</option>
+        <option value="2025-2026">2025-2026</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+        </select>
+      </label>
+      <button type="reset" data-filter-reset>重置筛选</button>
+  </form>
+  <div class="filter-result" data-filter-result></div>
+</section>
+<section class="section container">
+<div class="section-heading">
+  <div>
+    <span>Category</span>
+    <h2>综艺片单</h2>
+    <p>当前分类收录 16 部内容。</p>
+  </div>
+  
+</div>
+  <div class="cards-grid compact" data-filter-zone>
+<article class="movie-card grid" data-title="想唱就唱2013" data-type="综艺" data-region="中国大陆" data-genre="音乐选秀" data-year="2013" data-tags="全民歌唱, 梦想, 海选, 直播" data-summary="一档零门槛的国民歌唱选秀节目，来自全国各地的普通人带着他们的故事和歌声，争夺年度总冠军。 作为国内最具影响力的音乐选秀品牌，《想唱就唱》在2013年迎来赛制大革新，取消年龄和职业限制，真正实现“零门槛”报名。从黑龙江的伐木工人到海南的卖鱼姑娘，从退休的数学老师到自闭症少年，本季海选人数突破三十万，创下纪录。节目采用“全直播”形式，选手的命运不再被后期剪辑左右，每一次破音、每一滴眼泪都实时呈现在全国观众面前。其中，一位从未接受过专业训练但拥有一副“被天使吻过”的嗓音的食堂阿姨，一位坚持原创却屡屡被评委质疑“不符合市场”的地下说唱歌手，成为本季最大的焦点。总决赛之夜，没有华丽的舞美和修音，两位素人站在空旷的舞台上，用一首清唱的原创歌曲撼动了所有评委和观众，最终冠军的诞生不是靠煽情，而是靠直击灵魂的声音。">
+  <a class="movie-card-link" href="video-0276.html" aria-label="查看 想唱就唱2013">
+    <span class="thumb">
+      <img src="126.jpg" alt="想唱就唱2013" loading="lazy">
+      <span class="badge top">音乐选秀</span>
+      <span class="badge bottom">第25集</span>
+    </span>
+    <span class="movie-info">
+      <strong>想唱就唱2013</strong>
+      <span class="movie-line">一档零门槛的国民歌唱选秀节目，来自全国各地的普通人带着他们的故事和歌声，争夺年度总冠军。</span>
+      <span class="movie-meta">
+        <span>中国大陆</span>
+        <span>2013</span>
+        <span>23.4万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="声宝喜相逢粤语" data-type="综艺" data-region="中国香港" data-genre="音乐 / 脱口秀" data-year="1989" data-tags="怀旧, 粤语金曲, 艺人访谈" data-summary="每期让两位有过节的歌坛巨星同台，用歌声代替吵架，用酒杯化解恩怨。 80年代末香港乐坛百花齐放却也恩怨不断。《声宝喜相逢》的节目设定极其缺德又极其高明：每集邀请一对素有嫌隙的歌手（如谭张争霸主角、同乐队解散的成员），先让两人隔空互怼，再强制要求合唱一首对方的成名曲。主持人肥KEN从中插科打诨，不断抛出敏感的私人问题。在酒精与现场乐队的催化下，有的当场摔麦离场，有的唱着唱着泪崩和解。这档节目记录了港乐最辉煌也最真实的一面，堪称“笑着戳刀子的时代切片”。">
+  <a class="movie-card-link" href="video-0303.html" aria-label="查看 声宝喜相逢粤语">
+    <span class="thumb">
+      <img src="3.jpg" alt="声宝喜相逢粤语" loading="lazy">
+      <span class="badge top">音乐</span>
+      <span class="badge bottom">第16集</span>
+    </span>
+    <span class="movie-info">
+      <strong>声宝喜相逢粤语</strong>
+      <span class="movie-line">每期让两位有过节的歌坛巨星同台，用歌声代替吵架，用酒杯化解恩怨。</span>
+      <span class="movie-meta">
+        <span>中国香港</span>
+        <span>1989</span>
+        <span>44.7万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="迈克·艾普斯：一枝独秀" data-type="综艺" data-region="美国" data-genre="脱口秀" data-year="2024" data-tags="单口喜剧, 黑人幽默, 生活, 吐槽" data-summary="迈克·艾普斯回归舞台，从养娃聊到离婚，从警察聊到披萨，全场高能无冷场。 著名喜剧演员迈克·艾普斯带着他的全新单口专场《一枝独秀》回归。一个多小时的表演里，他火力全开，吐槽了中年离婚的尴尬、陪女儿追星的崩溃、以及疫情后美国社会的种种荒诞。他模仿白人邻居说话惟妙惟肖，调侃自己作为黑人父亲与警察打交道的心理阴影。表演后半段，他收起了笑声，认真讲了一段关于外婆去世的往事，让全场陷入沉默继而爆发出雷鸣般的掌声。这不仅仅是一场搞笑表演，更是迈克对人生过半的一次幽默复盘，笑中带泪，余味悠长。">
+  <a class="movie-card-link" href="video-0384.html" aria-label="查看 迈克·艾普斯：一枝独秀">
+    <span class="thumb">
+      <img src="84.jpg" alt="迈克·艾普斯：一枝独秀" loading="lazy">
+      <span class="badge top">脱口秀</span>
+      <span class="badge bottom">第25集</span>
+    </span>
+    <span class="movie-info">
+      <strong>迈克·艾普斯：一枝独秀</strong>
+      <span class="movie-line">迈克·艾普斯回归舞台，从养娃聊到离婚，从警察聊到披萨，全场高能无冷场。</span>
+      <span class="movie-meta">
+        <span>美国</span>
+        <span>2024</span>
+        <span>10.9万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="芒果最大牌2019" data-type="综艺 / 电影" data-region="中国" data-genre="纪录 / 音乐" data-year="2019" data-tags="选秀幕后, 真人秀, 青年文化, 芒果台" data-summary="2019年芒果台现象级音乐选秀节目《最大牌》的未播幕后纪录，揭露剪辑室里的战争。 这不是一期综艺，而是一部关于综艺的纪录片。2019年夏天，《芒果最大牌》成为全国收视冠军，但幕后远比台前精彩。摄制组获得独家授权，跟拍了导演组、剪辑师、选手、以及被节目组“恶剪”而身败名裂的选手家属。纪录片揭示：某位人气选手的“耍大牌”镜头其实是被移花接木；一位冠军的“逆袭故事”是编剧用三个月时间人为制造出来的；剪辑室里，导演和平台方为了“制造冲突”连续争吵四天。影片最后定格在决赛夜直播倒计时一分钟时，一名导演哭着删掉了原本要播出的“选手黑料”，并在镜头前说“我毁了一个孩子的前途”。该片播出后，广电总局出台了关于选秀节目“非虚构剪辑”的行业规范。">
+  <a class="movie-card-link" href="video-0548.html" aria-label="查看 芒果最大牌2019">
+    <span class="thumb">
+      <img src="98.jpg" alt="芒果最大牌2019" loading="lazy">
+      <span class="badge top">纪录</span>
+      <span class="badge bottom">116分钟</span>
+    </span>
+    <span class="movie-info">
+      <strong>芒果最大牌2019</strong>
+      <span class="movie-line">2019年芒果台现象级音乐选秀节目《最大牌》的未播幕后纪录，揭露剪辑室里的战争。</span>
+      <span class="movie-meta">
+        <span>中国</span>
+        <span>2019</span>
+        <span>42.8万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="超级乐8点" data-type="综艺节目" data-region="中国" data-genre="真人秀、喜剧、音乐" data-year="2025" data-tags="音综、整蛊、怀旧、即兴、高能" data-summary="一档让过气歌手在深夜便利店为真实顾客即兴live的治愈综艺，但每期结尾都藏着一个惊天爆料。 《超级乐8点》每周六晚8点播出，每期邀请一位过气歌手伪装成深夜便利店店员，为凌晨进店的真实顾客即兴演唱自己的代表作。顾客不知道对方是真明星，反应无比真实。节目前半段充满温情与笑点，中年危机歌手在凌晨三点给疲惫的加班族唱情歌。但当所有顾客离开后，节目进入隐藏环节：歌手会对着镜头，抖出一个从未公开的行业黑料或者私密往事，并直接@出相关人士。这些爆料在网络上形成二次爆炸，让节目成为“娱乐圈纪检委”。直到最后一期，主持人在爆料后摘下假发，对镜头说：“下一个该轮到我了。”">
+  <a class="movie-card-link" href="video-0610.html" aria-label="查看 超级乐8点">
+    <span class="thumb">
+      <img src="10.jpg" alt="超级乐8点" loading="lazy">
+      <span class="badge top">真人秀</span>
+      <span class="badge bottom">第35集</span>
+    </span>
+    <span class="movie-info">
+      <strong>超级乐8点</strong>
+      <span class="movie-line">一档让过气歌手在深夜便利店为真实顾客即兴live的治愈综艺，但每期结尾都藏着一个惊天爆料。</span>
+      <span class="movie-meta">
+        <span>中国</span>
+        <span>2025</span>
+        <span>91.9万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="做家务的男人第四季" data-type="综艺" data-region="中国大陆" data-genre="真人秀 / 生活 / 观察" data-year="2025" data-tags="家务, 明星, 夫妻, 搞笑" data-summary="本季挑战升级，四位男明星将前往军营、养老院、托儿所和女足队，体验“极限家务”。 《做家务的男人》第四季迎来全面革新。不再局限于家庭，四位常驻男嘉宾分别前往四个特殊场所：一位去新兵连学习内务整理；一位去养老院照顾失能老人；一位去托儿所当生活老师；一位去国家女足队做后勤。他们必须在七天里完成各自领域的高强度“家务”挑战，并定期回到观察室分享经历。嘉宾们从一开始的抱怨、出糗，到逐渐理解“家务”背后所代表的劳动价值、社会责任和性别平等。本季笑点与泪点齐飞，最终每位嘉宾都邀请了自己的家人或同伴来到自己服务的场所，完成一场关于“付出”与“感恩”的特别仪式。">
+  <a class="movie-card-link" href="video-0669.html" aria-label="查看 做家务的男人第四季">
+    <span class="thumb">
+      <img src="69.jpg" alt="做家务的男人第四季" loading="lazy">
+      <span class="badge top">真人秀</span>
+      <span class="badge bottom">第22集</span>
+    </span>
+    <span class="movie-info">
+      <strong>做家务的男人第四季</strong>
+      <span class="movie-line">本季挑战升级，四位男明星将前往军营、养老院、托儿所和女足队，体验“极限家务”。</span>
+      <span class="movie-meta">
+        <span>中国大陆</span>
+        <span>2025</span>
+        <span>40.6万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="与世界说 第三季" data-type="综艺" data-region="中国大陆" data-genre="演讲 / 纪实" data-year="2025" data-tags="全球议题, 青年发声, 正能量, 思想碰撞" data-summary="来自全球各地的青年代表，用演讲讲述他们与这个世界的故事。 本季节目将视野扩大到全球，邀请来自不同国家、不同文化背景的青年意见领袖。他们围绕科技、环保、教育、文化冲突等全球性议题，分享自己的独特见解和亲身经历。节目旨在搭建一个对话平台，倾听年轻一代的声音，探讨如何在差异中寻找共识，共同创造一个更美好的未来。">
+  <a class="movie-card-link" href="video-0890.html" aria-label="查看 与世界说 第三季">
+    <span class="thumb">
+      <img src="140.jpg" alt="与世界说 第三季" loading="lazy">
+      <span class="badge top">演讲</span>
+      <span class="badge bottom">第27集</span>
+    </span>
+    <span class="movie-info">
+      <strong>与世界说 第三季</strong>
+      <span class="movie-line">来自全球各地的青年代表，用演讲讲述他们与这个世界的故事。</span>
+      <span class="movie-meta">
+        <span>中国大陆</span>
+        <span>2025</span>
+        <span>19.6万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="我是特优声剧团季" data-type="综艺" data-region="中国" data-genre="真人秀， 竞技" data-year="2027" data-tags="配音， 声音魅力， 剧团， 幕后揭秘" data-summary="十二位顶级配音演员组成一个声音剧团，在无台词、纯即兴的极端条件下，用声音重塑经典电影。 这一季《我是特优声》彻底颠覆赛制。十二位获胜的配音演员不再为现成画面配音，而是被封闭在一个废弃的剧院里，组成“特优声剧团”。每期节目，他们需要根据一个随机抽到的主题词（如“窒息”、“背叛”、“初雪”），在没有剧本、没有台词、甚至没有画面参考的情况下，完全依靠即兴的人声、拟音和乐器，创作出三到五分钟的声音剧。评委将戴上眼罩，纯粹通过听觉来评判作品的画面感和情感冲击力。节目记录了从创排、争吵到神级现场的全部过程。">
+  <a class="movie-card-link" href="video-1036.html" aria-label="查看 我是特优声剧团季">
+    <span class="thumb">
+      <img src="136.jpg" alt="我是特优声剧团季" loading="lazy">
+      <span class="badge top">真人秀</span>
+      <span class="badge bottom">第29集</span>
+    </span>
+    <span class="movie-info">
+      <strong>我是特优声剧团季</strong>
+      <span class="movie-line">十二位顶级配音演员组成一个声音剧团，在无台词、纯即兴的极端条件下，用声音重塑经典电影。</span>
+      <span class="movie-meta">
+        <span>中国</span>
+        <span>2027</span>
+        <span>37.2万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="极岛森林第二季" data-type="综艺" data-region="中国台湾" data-genre="真人秀 / 纪实" data-year="2026" data-tags="露营, 环保, 治愈, 明星" data-summary="这一季，明星嘉宾们将深入即将被开发的神祕雨林，寻找传闻中的“树王”以阻止砍伐。 本季延续“无痕山林”理念，主持团队携不同飞行嘉宾前往台湾仅存的原始低海拔雨林。他们接到特殊任务：在七天内找到据说能调节整片区域生态的千年“树王”，并说服持开发牌照的地主保留林地。过程中，嘉宾们不仅要面对蚂蟥、毒蛇和恶劣天气，更要直面内心的欲望与疲惫。当最后一天，拿着GPS定位找到的“树王”竟是一棵毫不起眼的小树苗时，所有人沉默了——原来他们保护的从来不是一棵树，而是未来的可能性。">
+  <a class="movie-card-link" href="video-1116.html" aria-label="查看 极岛森林第二季">
+    <span class="thumb">
+      <img src="66.jpg" alt="极岛森林第二季" loading="lazy">
+      <span class="badge top">真人秀</span>
+      <span class="badge bottom">第1集</span>
+    </span>
+    <span class="movie-info">
+      <strong>极岛森林第二季</strong>
+      <span class="movie-line">这一季，明星嘉宾们将深入即将被开发的神祕雨林，寻找传闻中的“树王”以阻止砍伐。</span>
+      <span class="movie-meta">
+        <span>中国台湾</span>
+        <span>2026</span>
+        <span>2.6万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="街舞营业中" data-type="综艺 / 纪录片" data-region="中国大陆" data-genre="歌舞 / 真人秀" data-year="2025" data-tags="街舞, 幕后, 舞者生存, 炸裂" data-summary="镜头对准街舞综艺幕后的编舞师、替补和伴舞，舞台上的高光一分钟，台下是十年的地下室和止痛药。 该片记录了五位不同背景的街舞舞者参加一档S级综艺的全过程。从海选前的焦虑，到排练室的争吵与受伤，再到被明星导师当众淘汰。主角阿K是业内知名编舞师，为节目设计了所有炸场动作，名字却从不出现在屏幕上。女舞者小雅因膝盖积液打完封闭针上台，完成了一个漂亮的定格，随后被担架抬走。节目播出后，他们的镜头只有三秒。但他们依然在排练室跳舞，对着空气。影片结尾，五位舞者在深夜无人的天台上，没有音乐，只有风声，跳完了属于自己的决赛。">
+  <a class="movie-card-link" href="video-1287.html" aria-label="查看 街舞营业中">
+    <span class="thumb">
+      <img src="87.jpg" alt="街舞营业中" loading="lazy">
+      <span class="badge top">歌舞</span>
+      <span class="badge bottom">第28集</span>
+    </span>
+    <span class="movie-info">
+      <strong>街舞营业中</strong>
+      <span class="movie-line">镜头对准街舞综艺幕后的编舞师、替补和伴舞，舞台上的高光一分钟，台下是十年的地下室和止痛药。</span>
+      <span class="movie-meta">
+        <span>中国大陆</span>
+        <span>2025</span>
+        <span>40.0万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="凯文·亚当斯：真正的我" data-type="综艺 / 舞台剧实况" data-region="法国" data-genre="喜剧 / 脱口秀" data-year="2022" data-tags="单口喜剧, 自传, 幽默, 法国文化, 自我解构" data-summary="法国喜剧明星凯文·亚当斯撕掉所有伪装，用最原始的段子拷问自己：去掉人设后，我还可笑吗？ 本片是凯文·亚当斯一次极具实验性的单口专场录像。他没有走上传统剧场舞台，而是坐在一间空荡的化妆间里，对着一面单向镜讲述。他从童年移民经历讲到网络成名后的空虚，从父亲的离世到对“搞笑即逃避”的自我剖析。每个段子之后，他会暂停，回放刚才的表演，然后再次重讲——但必须换一个情绪或角度。后半段，他邀请观众席上的素人上台即兴对话，逼自己在不可控中找回真实的反应。最终他承认：“真正的我，就是害怕不被人笑的那个我。”全场起立鼓掌。">
+  <a class="movie-card-link" href="video-1462.html" aria-label="查看 凯文·亚当斯：真正的我">
+    <span class="thumb">
+      <img src="112.jpg" alt="凯文·亚当斯：真正的我" loading="lazy">
+      <span class="badge top">喜剧</span>
+      <span class="badge bottom">第23集</span>
+    </span>
+    <span class="movie-info">
+      <strong>凯文·亚当斯：真正的我</strong>
+      <span class="movie-line">法国喜剧明星凯文·亚当斯撕掉所有伪装，用最原始的段子拷问自己：去掉人设后，我还可笑吗？</span>
+      <span class="movie-meta">
+        <span>法国</span>
+        <span>2022</span>
+        <span>80.6万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="我们恋爱吧第一季" data-type="综艺" data-region="中国大陆" data-genre="真人秀 / 爱情" data-year="2026" data-tags="素人恋爱, 观察室, 旅行, 素人" data-summary="六位来自不同行业的素人男女，在一座海岛民宿里共同生活21天，寻找真爱。 本季节目将六位素人嘉宾带到南海的一座无人开发的原生态小岛，住进一栋由旧船厂改造的民宿。他们中有急诊科护士、独立音乐人、退役消防员、花艺师、程序员和自由潜水教练。节目没有剧本、没有任务卡，只有一台可以随时向任意嘉宾发送匿名短信的“心动电话亭”。21天里，嘉宾们需要自己做饭、解决生活问题，并在每晚选择一位对象发送心动短信。观察室由心理学教授和往季人气嘉宾组成，他们不仅要分析感情线，还要根据微表情预判“谁会在三天内吵架”“谁会第一个告白”。当第七天一场台风困住所有人时，真正的感情才开始浮出水面。">
+  <a class="movie-card-link" href="video-1567.html" aria-label="查看 我们恋爱吧第一季">
+    <span class="thumb">
+      <img src="67.jpg" alt="我们恋爱吧第一季" loading="lazy">
+      <span class="badge top">真人秀</span>
+      <span class="badge bottom">第20集</span>
+    </span>
+    <span class="movie-info">
+      <strong>我们恋爱吧第一季</strong>
+      <span class="movie-line">六位来自不同行业的素人男女，在一座海岛民宿里共同生活21天，寻找真爱。</span>
+      <span class="movie-meta">
+        <span>中国大陆</span>
+        <span>2026</span>
+        <span>65.7万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="追星星的人2" data-type="综艺" data-region="中国大陆" data-genre="真人秀/科普" data-year="2025" data-tags="天文、户外、旅行、治愈" data-summary="五名艺人深入无人区，在极端环境下寻找即将撞向地球的“末日彗星”踪迹。 第二季将观测地点从常规观星点升级到了四大无人区（羌塘、罗布泊等）。嘉宾团需要跟随天文学家，在严酷的自然环境中寻找一颗编号为“2025-H1”的周期彗星。这一季加入了“生存挑战”元素：嘉宾不仅要学会辨认星座，还要学习在没有指南针的情况下靠星象辨位、寻找水源。节目组设置了一个悬念：这颗彗星是真实存在的，还是只是为了考验人类在绝境下的求生意志？每一期都会结合一个天文现象（如流星雨、月全食）展开，在璀璨星空下探讨人类在宇宙中的孤独与渺小。">
+  <a class="movie-card-link" href="video-1732.html" aria-label="查看 追星星的人2">
+    <span class="thumb">
+      <img src="82.jpg" alt="追星星的人2" loading="lazy">
+      <span class="badge top">真人秀</span>
+      <span class="badge bottom">第5集</span>
+    </span>
+    <span class="movie-info">
+      <strong>追星星的人2</strong>
+      <span class="movie-line">五名艺人深入无人区，在极端环境下寻找即将撞向地球的“末日彗星”踪迹。</span>
+      <span class="movie-meta">
+        <span>中国大陆</span>
+        <span>2025</span>
+        <span>98.4万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="阿拉斯加大淘金第九季" data-type="综艺 / 纪实" data-region="美国" data-genre="真人秀，冒险，纪实" data-year="2024" data-tags="淘金，阿拉斯加，极端环境，赌命，机械" data-summary="金价暴涨，六支业余淘金队深入阿拉斯加无人区，用尽一切手段在冻土融化前挖出价值千万的金矿。 第九季迎来了前所未有的金价高位，也迎来了最疯狂的参赛阵容。前职业扑克选手卖掉了赌场股份，带着自学成才的机械师深入荒野；一对母女继承了去世丈夫的废弃矿场，要在三十天内让老设备重新运转；三个刚从高中毕业的年轻人凑钱买了一台二手挖掘机，发誓要成为阿拉斯加最年轻的百万富翁。问题是冻土层只会在夏季融化十周，十周后大雪封山，所有设备和人都必须撤出。机械故障、团队内讧、棕熊闯入营地、河流改道冲毁设备——每一集都有人几乎放弃。当第九周结束，地磅上的数字公布时，有人跪地痛哭，有人面无表情地收拾工具说“明年再来”。">
+  <a class="movie-card-link" href="video-1791.html" aria-label="查看 阿拉斯加大淘金第九季">
+    <span class="thumb">
+      <img src="141.jpg" alt="阿拉斯加大淘金第九季" loading="lazy">
+      <span class="badge top">真人秀</span>
+      <span class="badge bottom">第28集</span>
+    </span>
+    <span class="movie-info">
+      <strong>阿拉斯加大淘金第九季</strong>
+      <span class="movie-line">金价暴涨，六支业余淘金队深入阿拉斯加无人区，用尽一切手段在冻土融化前挖出价值千万的金矿。</span>
+      <span class="movie-meta">
+        <span>美国</span>
+        <span>2024</span>
+        <span>47.1万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="力争上游·旱鸭子季" data-type="综艺" data-region="中国大陆" data-genre="真人秀, 运动" data-year="2024" data-tags="明星, 游泳, 逆袭, 励志" data-summary="十位明星中的“旱鸭子”被丢进专业游泳队，100天内必须完成公开水域10公里挑战。 本季《力争上游》聚焦于对水有恐惧心理的明星嘉宾。他们将在国家级游泳教练的“魔鬼训练”下，从零开始学习游泳。节目不仅记录了他们克服呛水、抽筋、恐水心理的过程，更展现了严格的体能训练和团队接力赛的残酷淘汰。嘉宾们必须在100天后，于公开海域完成10公里“横渡挑战”，否则将接受惩罚。这是一场关于突破自我极限的真实记录，汗水、泪水和池水交织在一起。">
+  <a class="movie-card-link" href="video-1954.html" aria-label="查看 力争上游·旱鸭子季">
+    <span class="thumb">
+      <img src="4.jpg" alt="力争上游·旱鸭子季" loading="lazy">
+      <span class="badge top">真人秀</span>
+      <span class="badge bottom">第11集</span>
+    </span>
+    <span class="movie-info">
+      <strong>力争上游·旱鸭子季</strong>
+      <span class="movie-line">十位明星中的“旱鸭子”被丢进专业游泳队，100天内必须完成公开水域10公里挑战。</span>
+      <span class="movie-meta">
+        <span>中国大陆</span>
+        <span>2024</span>
+        <span>78.2万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+<article class="movie-card grid" data-title="爱笑麻瓜秀" data-type="综艺" data-region="中国" data-genre="喜剧真人秀" data-year="2014" data-tags="即兴喜剧, 校园, 短剧, 青春" data-summary="五个喜剧麻瓜的即兴对决，赢的人能获得“巫师”称号，输的人要扮成马桶。 这是一档曾经在视频平台热播的即兴喜剧综艺。每期5位素人选手（自称“麻瓜”），接受“无剧本、无道具、无彩排”的三无挑战。题目如“在电梯里向初恋推销墓穴”“用河南话演莎士比亚”。评委席坐着“巫师”——第一季是叫兽易小星。最大看点：“惩罚环节”，输的人要穿着马桶装去闹市买奶茶。节目停播多年后，因网友考古重新爆红，第二季于2026年重启。">
+  <a class="movie-card-link" href="video-1999.html" aria-label="查看 爱笑麻瓜秀">
+    <span class="thumb">
+      <img src="49.jpg" alt="爱笑麻瓜秀" loading="lazy">
+      <span class="badge top">喜剧真人秀</span>
+      <span class="badge bottom">第20集</span>
+    </span>
+    <span class="movie-info">
+      <strong>爱笑麻瓜秀</strong>
+      <span class="movie-line">五个喜剧麻瓜的即兴对决，赢的人能获得“巫师”称号，输的人要扮成马桶。</span>
+      <span class="movie-meta">
+        <span>中国</span>
+        <span>2014</span>
+        <span>15.8万观看</span>
+      </span>
+    </span>
+  </a>
+</article>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="index.html">
+        <span class="brand-icon">▶</span>
+        <span>高清影视片库</span>
+      </a>
+      <p>高清影视片库聚合电影与剧集内容，按类型、地区和热度分类展示。</p>
+    </div>
+    <div>
+      <h3>快速入口</h3>
+      <a href="categories.html">分类总览</a>
+      <a href="rankings.html">热度排行榜</a>
+      <a href="search.html">搜索筛选</a>
+    </div>
+    <div>
+      <h3>热门分类</h3>
+      <a href="genre-drama.html">剧情分类</a>
+      <a href="genre-comedy.html">喜剧分类</a>
+      <a href="genre-suspense.html">悬疑分类</a>
+    </div>
+    <div>
+      <h3>内容主题</h3>
+      <p>高清影视片库围绕影片类型、地区、热度与主题片单组织内容。</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 高清影视片库. All rights reserved.</div>
+</footer>
+<script src="assets/app.js" defer></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
